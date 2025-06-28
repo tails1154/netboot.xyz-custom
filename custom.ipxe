@@ -4,9 +4,7 @@
 ###
 
 :start
-echo Hello world!
+login tails1154 tails1154
+echo woah
 sleep 10
-goto custom_exit
-
-:custom_exit
 exit 0
