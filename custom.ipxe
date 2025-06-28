@@ -4,7 +4,11 @@
 ###
 
 :start
-login tails1154 tails1154
+login 
+goto ${username}
+:tails1154
 echo woah
 sleep 10
 exit 0
+:unknown
+echo "access denied. i sure do hope you dont go to the github repo to find the correct user name'
